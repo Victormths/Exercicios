@@ -1,0 +1,11 @@
+public class Exercicio4 {
+    public static void main(String[] args) {
+     
+    String usuario = "admin";
+    String senha = "12345";
+    boolean loginCorreto = usuario.equals("admin") && senha.equals("12345");
+    
+    if(loginCorreto) { System.out.println ("Seja bem vindo(a)!");}
+    else {System.out.println ("Login ou senha incorretos");}
+    }
+}
