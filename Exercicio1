@@ -1,0 +1,9 @@
+public class Exercicio1 {
+    public static void main(String[] args) {
+     int numero = -1; // você pode testar com outros números
+        boolean positivo = numero > 0;
+        
+        if (positivo){ System.out.println("o seu numero é positivo");}
+        else { System.out.println("o seu numero é negativo");}
+    }
+}
