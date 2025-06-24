@@ -1,0 +1,10 @@
+public class Exercicio3 {
+    public static void main(String[] args) {
+     
+     int numero = 15;
+     boolean par = numero % 2 == 0;
+     
+     if (par) { System.out.println("Seu número é par");}
+     else { System.out.println("Seu numero não é par");}
+    }
+}
